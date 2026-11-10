@@ -20,44 +20,43 @@ El alcance especificado en las historias de usuario comprende:
 - Consulta del directorio de clientes y técnicos.
 - Administración de cuentas de usuario, roles y permisos.
 
-Los materiales disponibles son documentos de requerimientos, evidencias gráficas y diseños de interfaz. Para revisarlos se utiliza GitHub y Figma; las pantallas PNG también pueden abrirse localmente.
+La documentación reúne las evidencias del levantamiento de requerimientos, la organización del trabajo y el diseño de las interfaces del sistema.
 
-## 2. Guía de revisión según la rúbrica
+## 2. Contenido del repositorio
 
-Esta guía relaciona los materiales del repositorio con los dos componentes del inciso **1.d**, de acuerdo con los requisitos compartidos para el proyecto.
+Acceso a los principales materiales del proyecto:
 
-| Componente | Puntaje indicado | Material disponible | Ruta de revisión |
-|---|---|---|---|
-| Evidencias de las técnicas de levantamiento de requerimientos y de la metodología seguida | 5 puntos | Capturas de entrevista y reunión, convocatorias, tablero Scrum e historias de usuario | [Evidencias](evidencias/) y sección 3 de este README |
-| Prototipo del sistema de software aprobado | 15 puntos | Enlace al diseño en Figma y 11 pantallas exportadas en PNG | [Pantallas](prototipo/) y sección 5 de este README |
-
-**Verificación de aprobación:** el tablero registra las historias como «Validada con cliente». La aprobación formal debe contrastarse con el acta firmada incluida en el apéndice de la ERS/SRS; ese documento no está disponible en esta copia del repositorio.
+| Material | Descripción | Acceso |
+|---|---|---|
+| Evidencias de levantamiento | Capturas de entrevistas, reuniones y convocatorias con CONTEC. | [Entrevistas](evidencias/entrevistas/) · [Reuniones](evidencias/reuniones/) |
+| Metodología y requerimientos | Tablero Scrum, backlog, historias de usuario y criterios de aceptación. | [Metodología](evidencias/metodologia/) |
+| Prototipo | Diseño en Figma y 11 pantallas exportadas en PNG. | [Pantallas del sistema](prototipo/) |
 
 ## 3. Evidencias de levantamiento de requerimientos
 
 Las evidencias gráficas se organizan por actividad para facilitar su identificación.
 
-| Actividad | Archivo | Contenido observable |
+| Actividad | Archivo | Descripción |
 |---|---|---|
 | Entrevista | [ENTREVISTA.jpeg](evidencias/entrevistas/ENTREVISTA.jpeg) | Captura de una sesión en Google Meet con participantes y pantalla compartida. |
 | Convocatoria de entrevista | [MEET.png](evidencias/entrevistas/MEET.png) | Invitación de calendario titulada «ENTREVISTA CONTEC». |
 | Reunión con el cliente | [REUNIONES.jpeg](evidencias/reuniones/REUNIONES.jpeg) | Captura de la sesión «Reunión cliente CONTEC» en Microsoft Teams. |
 | Convocatoria de reunión | [TEAMS.png](evidencias/reuniones/TEAMS.png) | Invitación de la reunión del 29 de octubre de 2026. |
 
-El [tablero Scrum](evidencias/metodologia/TABLERO_SCRUM.md) describe el uso de entrevistas semiestructuradas y observación directa. Las imágenes disponibles documentan las sesiones y sus convocatorias; el guion, las respuestas, las notas de observación y las minutas pueden incorporarse en sus respectivas carpetas para mostrar los hallazgos y acuerdos obtenidos.
+El [tablero Scrum](evidencias/metodologia/TABLERO_SCRUM.md) describe el uso de entrevistas semiestructuradas y observación directa como técnicas de levantamiento. Las capturas reúnen las sesiones y convocatorias registradas durante este proceso.
 
 ## 4. Metodología y gestión de requerimientos
 
-El equipo documenta un enfoque de **Scrum adaptado a la ingeniería de requerimientos**, organizado en cuatro sprints:
+La metodología del proyecto sigue un enfoque de **Scrum adaptado a la ingeniería de requerimientos**, organizado en cuatro sprints:
 
-| Sprint | Fase | Objetivo documentado |
+| Sprint | Fase | Objetivo |
 |---|---|---|
 | 1 | Elicitación y descubrimiento | Comprender el problema y levantar necesidades mediante entrevistas y observación. |
 | 2 | Análisis y negociación | Elaborar, priorizar y estimar las historias de usuario. |
 | 3 | Especificación | Definir requerimientos funcionales y no funcionales, criterios de validación y prototipo. |
-| 4 | Validación y verificación | Revisar la ERS y el prototipo con el cliente y obtener su conformidad. |
+| 4 | Validación y verificación | Revisar los requerimientos y el prototipo con el cliente. |
 
-### Artefactos disponibles
+### Artefactos del proyecto
 
 | Artefacto | Contenido | Acceso |
 |---|---|---|
@@ -86,7 +85,7 @@ Las siguientes exportaciones permiten revisar las interfaces directamente desde 
 | 10 | [Roles y permisos](prototipo/10_Roles_permisos.png) | Configuración de permisos | HU-10 / RF-010 |
 | 11 | [Sesión expirada](prototipo/11_Sesi%C3%B3n_expirada.png) | Estado de expiración de sesión | Seguridad de sesión transversal |
 
-### Recorrido sugerido para la revisión
+### Recorrido del prototipo
 
 1. Revisar el inicio de sesión, el dashboard y la vista de proyectos.
 2. Abrir el repositorio de archivos e identificar el listado y los filtros.
@@ -116,24 +115,11 @@ Nucitas/
 
 ## 7. Equipo de trabajo
 
-Los roles y las responsabilidades se presentan conforme al tablero del proyecto.
+El equipo combina la gestión de requerimientos, la coordinación del trabajo, el diseño de interfaces y el aseguramiento de la calidad.
 
-| Integrante | Rol documentado | Responsabilidad principal |
+| Integrante | Rol | Responsabilidad principal |
 |---|---|---|
 | Misael José Moreira Moreno | Product Owner | Priorización del backlog y validación de historias con el cliente. |
 | Braulio Alexander Neira Villón | Scrum Master | Organización de sprints, tablero y evidencias. |
 | Danna Stefania Urdanigo Ochoa | Diseñadora UX | Diseño del prototipo y flujos de ventanas. |
 | Kevin Fernando Maldonado Paredes | Analista QA | Criterios de aceptación, requerimientos no funcionales y métodos de verificación. |
-
-## 8. Relación con la ERS/SRS y revisión de entrega
-
-El enlace de este repositorio para incluir en la ERS/SRS es: **[github.com/durdanigo/Nucitas](https://github.com/durdanigo/Nucitas)**.
-
-Según los requisitos compartidos, el PDF de la ERS/SRS se entrega en Aula Virtual e incluye el acta de conformidad firmada, las capturas y el flujo de ventanas como apéndices, además de las contribuciones individuales y la declaración de autoría. La copia de ese PDF en GitHub es opcional.
-
-Antes de la entrega, quedan estos puntos por completar o comprobar:
-
-- **Cronología:** sustituir los marcadores `dd/mm` del tablero por las fechas reales de cada sprint.
-- **Detalle de las evidencias:** incorporar los guiones, respuestas, notas o minutas disponibles que respalden las actividades descritas como realizadas.
-- **Acceso:** comprobar que el evaluador pueda abrir el repositorio público y el diseño de Figma con permisos de lectura.
-- **Aprobación y apéndices:** comprobar en el PDF final la presencia del acta firmada y de los demás elementos exigidos. Según la especificación compartida, la ausencia del acta tiene una penalización de −100.
